@@ -1,0 +1,111 @@
+/* 메인 */
+#main {
+    margin: auto;
+    width: 430px;
+    height: 470px;
+}
+
+#titleBar{
+    margin: 0;
+    width: 100%;
+    display: block;
+    padding: 15px 30px;
+    background-color: #353b4c;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+/* 채팅 영역 */
+#chat {
+    height: 90%;
+    width: 97%;
+    overflow-X: hidden;
+    word-wrap: break-word;
+}
+
+/* 접속 알림 */
+.connect {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    clear: both;
+}
+
+/* 접속 종료 알림 */
+.disconnect {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    clear: both;
+}
+
+/* 내가 보낸 메시지 */
+.me {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: auto;
+    background: antiquewhite;
+    border-radius: 5px;
+    margin-top: 13px;
+    float: right;
+    clear: both;
+    margin-right: 10px ;
+    max-width: 300px;
+    word-break: break-all;
+}
+
+/* 상대방이 보낸 메시지 */
+.other {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: auto;
+    background: dimgray;
+    border-radius: 5px;
+    margin-top: 13px;
+    float: left;
+    clear: both;
+    color: #ffffff;
+    max-width: 300px;
+    word-break: break-all;
+    margin-left: 10px;
+}
+#chatInput{
+    width: 85%;
+    margin-left: 3px;
+}
+.myTime{
+    clear: both;
+    float: right;
+    font-size: 10px;
+    margin-right: 13px;
+}
+.otherTime{
+    float: left;
+    clear: both;
+    font-size: 10px;
+    margin-left: 13px;
+}
+.readMsg{
+    float: right;
+    font-size: 9px;
+    margin-right: 5px;
+}
+
+.dateNotice{
+    clear: both;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+/*#main {*/
+/*    margin: auto;*/
+/*    margin-top: 100px;*/
+/*    background-color: lightblue;*/
+/*    text-align: center;*/
+/*    width: 200px;*/
+/*}*/
